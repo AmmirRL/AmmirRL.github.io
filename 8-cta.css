@@ -1,0 +1,120 @@
+main .CTA_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6.67vw 0; /*96px*/
+    background: linear-gradient(to top, #E5F2FF, #99CCFF);
+    border-radius: 1.67vw; /*24px*/
+    gap: 2.22vw; /*32px*/
+    margin-bottom: 5.56vw; /*80px*/
+    box-shadow: 0 0 15px rgba(217, 217, 217, 50);
+}
+
+main .CTA_section h2{
+    font-size: 4.44vw; /*64px*/
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    /* color: black; */
+    text-align: center;
+    margin: 0 11.11vw; /*160px*/
+
+    color: #FFFFFF;
+    text-shadow: 0px 8px 5px #6698e9;
+}
+
+main .CTA_section p{
+    font-size: 1.67vw; /*24px*/
+    line-height: 2.22vw; /*32px*/
+    font-weight: 400;
+    /* color: black; */
+    text-align: center;
+    margin: 0 21.67vw; /*312px*/
+
+    color: #FFFFFF;
+    text-shadow: 0px 2px 5px #6698e9;
+}
+
+main .CTA_section a{
+    font-size: 1.67vw; /*24px*/
+    line-height: 1.67vw; /*24px*/
+    font-weight: normal;
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #86B5FF;
+    border-radius: 2.08vw; /*30px*/
+    padding: 1.39vw 0 1.53vw 0;
+    width: calc(100% - 31.94vw); /*460px*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px #86B5FF;
+}
+
+.cs_title, .cs_paragraph, .cs_button{
+    opacity: 0; /* Inicialmente invisible */
+    transform: translateY(50px); /* Colocamos la sección fuera de la vista para que no se vea */
+}
+
+
+@media (max-width:766.9px){
+    main .CTA_section{
+        padding: 16.7vw 0;
+        gap: 5.6vw;
+        margin-bottom: 14.9vw;
+        border-radius: 3.7vw;
+
+    }
+    
+    main .CTA_section h2{
+        font-size: 6.5vw; /*28px*/
+        line-height: 7.9vw; /*34px*/
+        margin: 0 11.2vw;
+    }
+    
+    main .CTA_section p{
+        font-size: 4.2vw; /*18px*/
+        line-height: 5.6vw; /*24px*/
+        margin: 0 5.6vw;
+    }
+    
+    main .CTA_section a{
+        text-align: center;
+        width: calc(100% - 11.2vw);
+        font-size: 4.2vw; /*18px*/
+        line-height: 5.6vw; /*24px*/
+        padding: 2.8vw 0 3.7vw 0;
+        border-radius: 7vw;
+    }
+}
+
+@media (min-width:767px) and (max-width:1023px){
+    main .CTA_section{
+        padding: 64px 0;
+        gap: 32px;
+        margin-bottom: 64px;
+        border-radius: 20px;
+    }
+    
+    main .CTA_section h2{
+        font-size: 3.8vw; /*32px*/
+        line-height: 4.6vw; /*38px*/
+        margin: 0 8.6vw;
+    }
+    
+    main .CTA_section p{
+        font-size: 2.2vw; /*20px*/
+        line-height: 2.9vw; /*26px*/
+        margin: 0 12.5vw;
+    }
+    
+    main .CTA_section a{
+        font-size: 2.4vw; /*24px*/
+        line-height: 3.6vw; /*30px*/
+        padding: 1.4vw 0 1.9vw 0; /*14/18px*/
+        border-radius: 7vw;
+        text-align: center;
+        height: auto;
+        width: calc(100% - 9.6vw);
+    }
+}

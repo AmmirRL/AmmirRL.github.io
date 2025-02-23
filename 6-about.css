@@ -1,0 +1,359 @@
+main .about_section{
+    border-radius: 1.67vw; /*24px*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px; /*32px*/
+    /* border: 1px solid green; */
+    /* background: linear-gradient(to right, #E5F2FF, 50%, #99CCFF); */
+    background: linear-gradient(to top, #E5F2FF, #99CCFF);
+    margin-top: 4.44vw; /*64px*/
+    margin-bottom: 4.44vw; /*64px*/
+    padding: 3.89vw 0; /*56px*/
+    box-shadow: 0 0 15px rgba(217, 217, 217, 50);
+}
+
+main .about_section .left_about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5.56vw; /*80px*/
+    gap: 1.11vw; /*16px*/
+    width: 50%;
+}
+
+main .about_section .left_about img{
+    width: 13.54vw; /*195px*/
+    height: 13.54vw; /*195px*/
+}
+
+main .about_section .left_about h2{
+    font-size: 3.33vw; /*48px*/
+    line-height: 3.89vw; /*56px*/
+    font-weight: 500;
+    /* color: black; */
+    letter-spacing: -0.5px;
+
+    color: #FFFFFF;
+    text-shadow: 0px 8px 5px #6698e9;
+}
+
+main .about_section .right_about{
+    margin-right: 5.56vw; /*80px*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid green; */
+    gap: 3.33vw; /*48px*/
+    height: 25.56vw; /*368px*/
+    width: 50%;
+
+}
+
+main .about_section .right_about .ra_mission{
+    background-color: #FFFFFF;
+    border-radius: 1.67vw; /*24px*/
+    padding: 2.22vw 1.67vw; /*32/24px*/
+    width: 50%;
+    height: 100%;
+}
+
+main .about_section .right_about .ra_mission .ram_circle{
+    width: 4.17vw; /*60px*/
+    height: 4.17vw; /*60px*/
+    background-color: #E5F2FF;
+    border-radius: 4.17vw; /*60px*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.11vw; /*16px*/
+}
+
+main .about_section .right_about .ra_mission .ram_circle svg{
+    width: 2.08vw; /*30px*/
+    height: 2.08vw; /*30px*/
+}
+
+main .about_section .right_about .ra_mission .ram_circle svg path {
+    fill: #86B5FF;
+}
+
+main .about_section .right_about .ra_mission  .ram_text h4{
+    font-size: 1.67vw; /*24px*/
+    font-weight: 500;
+    color: black;
+    margin-bottom: 1.67vw; /*24px*/
+}
+
+main .about_section .right_about .ra_mission .ram_text p{
+    font-size: 1.39vw; /*20px*/
+    line-height: 1.94vw; /*28px*/
+    font-weight: 300;
+    color: #566364
+}
+
+main .about_section .right_about .ra_vision{
+    background-color: #FFFFFF;
+    border-radius: 1.67vw; /*24px*/
+    padding: 2.22vw 1.67vw; /*32/24px*/
+    width: 50%;
+    height: 100%;
+}
+
+main .about_section .right_about .ra_vision .rav_circle{
+    width: 4.17vw; /*60px*/
+    height: 4.17vw; /*60px*/
+    background-color: #E5F2FF;
+    border-radius: 4.17vw; /*60px*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.11vw; /*16px*/
+}
+
+main .about_section .right_about .ra_vision .rav_circle svg{
+    width: 2.08vw; /*30px*/
+    height: 2.08vw; /*30px*/
+}
+
+main .about_section .right_about .ra_vision .rav_circle svg path {
+    fill: #86B5FF;
+}
+
+main .about_section .right_about .ra_vision h4{
+    font-size: 1.67vw; /*24px*/
+    font-weight: 500;
+    color: black;
+    margin-bottom: 1.67vw; /*24px*/
+}
+
+main .about_section .right_about .ra_vision p{
+    font-size: 1.39vw; /*20px*/
+    line-height: 1.94vw; /*28px*/
+    font-weight: 300;
+    color: #566364
+}
+
+.la_img, .la_title, .ra_mission, .ra_vision{
+    opacity: 0; /* Inicialmente invisible */
+    transform: translateY(50px); /* Colocamos la sección fuera de la vista para que no se vea */
+}
+
+@media (max-width:766.9px){
+    main .about_section{
+        flex-direction: column;
+        gap: 7vw;
+        margin: 14.9vw 0;
+        padding: 7.4vw 5.6vw;
+        border-radius: 3.7vw;
+
+    }
+    
+    main .about_section .left_about{
+        width: 100%;
+        margin: 0;
+        gap: 7.4vw;
+    }
+    
+    main .about_section .left_about img{
+        width: 34.2vw;
+        height: 34.2vw;
+    }
+    
+    main .about_section .left_about h2{
+        font-size: 6.5vw; /*28px*/
+        line-height: 7.9vw; /*34px*/
+    }
+    
+    main .about_section .right_about{
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        gap: 5.6vw;
+        height: auto;
+    }
+    
+    main .about_section .right_about .ra_mission{
+        width: auto;
+        padding: 7vw 4.2vw;
+        display: flex;
+        gap: 3.7vw;
+        border-radius: 3.7vw;
+
+    }
+    
+    main .about_section .right_about .ra_mission .ram_circle{
+        width: auto;
+        height: 100%;
+        margin-bottom: 0;
+        border-radius: 14vw; /*60px*/
+
+    }
+
+    main .about_section .right_about .ra_mission .ram_circle svg{
+        width: 7vw;
+        height: 7vw;
+        padding: 3.3vw;
+    }
+
+    main .about_section .right_about .ra_mission .ram_text{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        width:fit-content;
+        gap: 1.5vw;
+    }
+
+    main .about_section .right_about .ra_mission .ram_text h4{
+        font-size: 4.7vw; /*20px*/
+        line-height: 6vw; /*26px*/  
+        margin: 0;
+    }
+    
+    main .about_section .right_about .ra_mission .ram_text p{
+        font-size: 4.2vw; /*18px*/
+        line-height: 5.6vw; /*24px*/
+    }
+    
+    main .about_section .right_about .ra_vision{
+        width: auto;
+        padding: 7vw 4.2vw;
+        display: flex;
+        gap: 3.7vw;
+        border-radius: 3.7vw;
+
+    }
+    
+    main .about_section .right_about .ra_vision .rav_circle{
+        width: auto;
+        height: 100%;
+        margin-bottom: 0;
+        border-radius: 14vw; /*60px*/
+    }
+    
+    main .about_section .right_about .ra_vision .rav_circle svg{
+        width: 7vw;
+        height: 7vw;
+        padding: 3.3vw;
+    }
+    
+    main .about_section .right_about .ra_vision .rav_text{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        width:fit-content;
+        gap: 1.5vw;
+    }
+
+    main .about_section .right_about .ra_vision .rav_text h4{
+        font-size: 4.7vw; /*20px*/
+        line-height: 6vw; /*26px*/  
+        margin: 0;
+    }
+    
+    main .about_section .right_about .ra_vision .rav_text p{
+        font-size: 4.2vw; /*18px*/
+        line-height: 5.6vw; /*24px*/
+    }
+}
+
+@media (min-width:767px) and (max-width:1023px){
+    main .about_section{
+        border-radius: 2.4vw;
+        gap: 3.8vw;
+        margin-top: 7.7vw;
+        margin-bottom: 7.7vw;
+        padding: 11.5vw 0;
+    }
+    
+    main .about_section .left_about{
+        margin-left: 4.8vw;
+        gap: 3.6vw;
+        width: 45%;
+    }
+    
+    main .about_section .left_about img{
+        width: 23.4vw; /*195px*/
+        height: 23.4vw; /*195px*/
+    }
+    
+    main .about_section .left_about h2{
+        font-size: 3.8vw; /*32px*/
+        line-height: 4.6vw; /*38px*/
+    }
+    
+    main .about_section .right_about{
+        width: 55%;
+        margin-right: 4.8vw;
+        flex-direction: column;
+        gap: 2.9vw;
+        height: auto;
+    }
+    
+    main .about_section .right_about .ra_mission{
+        border-radius: 2.4vw;
+        padding: 3.6vw 2.2vw;
+        gap: 2.4vw;
+        display: flex;
+        width: auto;
+    }
+    
+    main .about_section .right_about .ra_mission .ram_circle{
+        width: auto;
+        height: 100%;
+        margin-bottom: 0;
+        border-radius: 7.2vw; /*60px*/
+    }
+    
+    main .about_section .right_about .ra_mission .ram_circle svg{
+        width: 3.6vw;
+        height: 3.6vw;
+        padding: 1.7vw;
+    }
+    
+    main .about_section .right_about .ra_mission  .ram_text h4{
+        font-size: 2.4vw; /*20px*/ 
+        line-height: 3.1vw;  /*26px*/
+        margin-bottom: 0.6vw;
+    }
+    
+    main .about_section .right_about .ra_mission .ram_text p{
+        font-size: 2.2vw; /*20px*/
+        line-height: 2.9vw; /*26px*/
+    }
+    
+    main .about_section .right_about .ra_vision{
+        border-radius: 2.4vw;
+        padding: 3.6vw 2.2vw;
+        gap: 2.4vw;
+        display: flex;
+        width: auto;
+    }
+    
+    main .about_section .right_about .ra_vision .rav_circle{
+        width: auto;
+        height: 100%;
+        margin-bottom: 0;
+        border-radius: 7.2vw; /*60px*/
+    }
+    
+    main .about_section .right_about .ra_vision .rav_circle svg{
+        width: 3.6vw;
+        height: 3.6vw;
+        padding: 1.7vw;
+    }
+    
+    main .about_section .right_about .ra_vision h4{
+        font-size: 2.4vw; /*20px*/ 
+        line-height: 3.1vw;  /*26px*/
+        margin-bottom: 0.6vw;
+    }
+    
+    main .about_section .right_about .ra_vision p{
+        font-size: 2.2vw; /*20px*/
+        line-height: 2.9vw; /*26px*/
+    }
+    
+}
+

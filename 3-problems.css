@@ -1,0 +1,152 @@
+main .problems_section{
+    margin: 4.44vw 0; /*64px*/
+    /* border: 1px solid purple; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5.56vw; /*80px*/
+    gap: 30px; /*2.08vw*/
+    height: 25vw; /*360px*/
+}
+
+main .problems_section .left_problems{
+    width: 50%;
+    height: 100%;
+    /* margin-left: 80px; */
+    /* border: 1px solid green; */
+    display: flex;
+    position: relative;
+}
+
+main .problems_section .left_problems img{
+    width: 23.61vw; /*340px*/
+    height: 16.67vw; /*240px*/
+    border-radius: 1.67vw; /*24px*/
+    box-shadow: 0 0 15px rgba(217, 217, 217, 50);
+}
+
+main .problems_section .left_problems .lp_first{
+    position: absolute;
+    top: 8.33vw; /*120px*/
+    right: 0;
+    z-index: 1;
+}
+
+main .problems_section .left_problems .lp_second{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    filter: saturate(1.5);
+}
+
+
+main .problems_section .right_problems{
+    width: 50%;
+    height: 100%;
+    /* margin-right: 80px; */
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.11vw; /*16px*/
+}
+
+main .problems_section .right_problems h2{
+    font-size: 3.33vw; /*48px*/
+    line-height: 3.89vw; /*56px*/
+    font-weight: 500;
+    color: black;
+    letter-spacing: -0.5px;
+}
+
+main .problems_section .right_problems p{
+    font-size: 1.67vw; /*24px*/
+    line-height: 2.22vw; /*32px*/
+    font-weight: 300;
+    color: #566364;
+}
+
+.left_problems, .right_problems{
+    opacity: 0; /* Inicialmente invisible */
+    transform: translateY(50px); /* Colocamos la sección fuera de la vista para que no se vea */
+}
+
+@media (max-width:766.9px){
+    main .problems_section{
+        margin: 14.9vw 0; /*14.9vw -> 64px*/
+        flex-direction: column;
+        height: auto;
+        padding: 0;
+        gap: 7vw; /*7vw -> 30px*/
+    }
+    
+    main .problems_section .left_problems{
+        width: 100%;
+        height: 57.6vw;
+    }
+    
+    main .problems_section .left_problems img{
+        width: 57.4vw;
+        height: 38.4vw;
+        border-radius: 3.7vw;
+
+    }
+    
+    main .problems_section .left_problems .lp_first{
+        top: 19.2vw;
+    }
+    
+    main .problems_section .right_problems{
+        width: 100%;
+        gap: 1.9vw; /*1.9vw -> 8px*/
+    }
+    
+    main .problems_section .right_problems h2{
+        width: 90%;
+        font-size: 6.5vw; /*28px*/
+        line-height: 7.9vw; /*34px*/
+    }
+    
+    main .problems_section .right_problems p{
+        font-size: 4.2vw; /*18px*/
+        line-height: 5.6vw; /*24px*/
+    }
+}
+
+@media (min-width:767px) and (max-width:1023px){
+    main .problems_section{
+        padding: 0;
+        gap: 2.9vw; /*24px*/
+        margin: 7.7vw 0; /*64px*/
+        height: auto;
+    }
+    
+    main .problems_section .left_problems{
+        height: 29.9vw; /*249px*/
+    }
+    
+    main .problems_section .left_problems img{
+        width: 29.7vw; /*248px*/
+        height: 19.9vw; /*166px*/
+        border-radius: 2.4vw; /*20px*/
+    }
+    
+    main .problems_section .left_problems .lp_first{
+        top: 9.95vw; /*83px*/
+    }
+    
+    main .problems_section .right_problems{
+        gap: 1.9vw; /*16px*/
+    }
+    
+    main .problems_section .right_problems h2{
+        font-size: 3.8vw; /*32px*/
+        line-height: 4.6vw; /*38px*/
+    }
+    
+    main .problems_section .right_problems p{
+        font-size: 2.4vw; /*20px*/
+        line-height: 3.1vw; /*26px*/
+    }
+}

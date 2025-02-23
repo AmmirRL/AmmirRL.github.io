@@ -1,0 +1,152 @@
+footer{
+    display: flex;
+    flex-direction: column;
+}
+
+footer .footer_top{
+    display: flex;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+footer .footer_top .ft_left{
+    width: 50%;
+    border-top: 1.5px solid black;
+    margin-top: 2.64vw; /*38px*/
+}
+
+footer .footer_top .ft_center img{
+    width: 5.28vw; /*76px*/
+    height: 5.28vw; /*76px*/
+    margin-left: 2.22vw; /*32px*/
+    margin-right: 2.22vw; /*32px*/
+}
+
+footer .footer_top .ft_right{
+    width: 50%;
+    border-top: 1.5px solid black;
+    margin-top: 2.64vw; /*38px*/
+}
+
+footer .footer_bot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .footer_bot p{
+    font-size: 1.25vw; /*18px*/
+    text-align: center;
+    color: #566364;
+}
+
+footer .footer_bot .fb_icons{
+    display: flex;
+    justify-content: center;
+    gap: 1.67vw; /*24px*/
+}
+
+footer .footer_bot .fb_icons svg{
+    width: 1.94vw; /*28px*/
+    height: 1.94vw; /*28px*/
+}
+
+@media (max-width:766.9px){
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    footer .footer_top{
+        display: flex;
+        width: 100%;
+        margin-bottom: 3.7vw;
+    }
+    
+    footer .footer_top .ft_left{
+        width: 50%;
+        border-top: 1px solid black;
+        margin-top: 6.5vw;
+    }
+    
+    footer .footer_top .ft_center img{
+        width: 13vw;
+        height: 13vw;
+        margin-left: 5.1vw;
+        margin-right: 5.1vw;
+    }
+    
+    footer .footer_top .ft_right{
+        width: 50%;
+        border-top: 1px solid black;
+        margin-top: 6.5vw;
+    
+    }
+    
+    footer .footer_bot{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        gap: 3.7vw;
+    }
+    
+    footer .footer_bot p{
+        font-size: 2.8vw;
+        text-align: center;
+    }
+    
+    footer .footer_bot .fb_icons{
+        display: flex;
+        gap: 4.7vw;
+        justify-content: center;
+    }
+    
+    footer .footer_bot .fb_icons svg{
+        width: 4.7vw;
+        height: 4.7vw;
+    }
+}
+
+@media (min-width:767px) and (max-width:1023px){    
+    footer .footer_top{
+        margin-bottom: 2.4vw; /*32px*/
+    }
+    
+    footer .footer_top .ft_left{
+        margin-top: 3.95vw; /*33px*/
+    }
+    
+    footer .footer_top .ft_center img{
+        width: 7.9vw; /*66px*/
+        height: 7.9vw; /*66px*/
+        margin-left: 2.9vw; /*24px*/
+        margin-right: 2.9vw; /*24px*/
+    }
+    
+    footer .footer_top .ft_right{
+        margin-top: 3.95vw; /*33px*/
+    }
+    
+    footer .footer_bot{
+        flex-direction: row;
+        /* justify-content: space-between;
+        align-items: center; */
+    }
+    
+    footer .footer_bot p{
+        font-size: 1.7vw;
+    }
+    
+    footer .footer_bot .fb_icons{
+        gap: 3.6vw;
+    }
+    
+    footer .footer_bot .fb_icons svg{
+        width: 3.1vw;
+        height: 3.1vw;
+    }
+}
+
+
+
+

@@ -1,0 +1,646 @@
+main .services_section{
+    /* border: 1px solid red; */
+    gap: 2.22vw; /*32px*/
+    position: relative;
+}
+
+main .services_section h2{
+    font-size: 3.33vw; /*48px*/
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    /* border: 1px solid orange; */
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+main .services_section .ss_back1{
+    position: absolute;
+    z-index: -1;
+    width: 38.19vw; /*550px*/
+    height: auto;
+    top: 0;
+    left: -10.42vw; /*150px*/
+}
+
+main .services_section .ss_back2{
+    position: absolute;
+    z-index: -1;
+    width: 40.28vw; /*580px*/
+    height: auto;
+    bottom: 0px;
+    right: -3.47vw; /*50px*/
+}
+
+main .services_section .ss_back3, main .services_section .ss_back4{
+    display: none;
+}
+
+.ss_back1, .ss_back2, .ss_back3, .ss_back4{
+    animation: huhu infinite 2s ease-in-out
+}
+
+/*                                                                          Servicios para niños */
+
+main .services_section .ss_kids{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid yellow; */
+    padding: 3.33vw 5.56vw; /*48/80px*/
+    gap: 2.22vw; /*32px*/
+}
+
+main .services_section .ss_kids .ssk_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.56vw; /*8px*/
+    /* border: 1px solid green; */
+}
+
+main .services_section .ss_kids .ssk_header svg{
+    width: 5.21vw; /*75px*/
+    height: 4.51vw; /*65px*/
+}
+
+main .services_section .ss_kids .ssk_header path{
+    fill: #99CCFF;
+}
+
+main .services_section .ss_kids .ssk_header h3{
+    font-size: 2.08vw; /*30px*/
+    font-weight: 500;
+    color: black;
+}
+
+main .services_section .ss_kids .ssk_list{
+    /* border: 1px solid pink; */
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 1.67vw; /*24px*/
+    row-gap: 1.67vw; /*24px*/
+}
+
+main .services_section .ss_kids .ssk_list .sskl_item{
+    height: 17.92vw; /*258px*/
+    border-radius: 1.67vw; /*24px*/
+    background-color: #FFFFFF;
+    padding-left: 2.5vw; /*36px*/
+    padding-right: 2.5vw; /*36px*/
+    box-shadow: 0 0 15px rgba(217, 217, 217, 50);
+}
+
+main .services_section .ss_kids .ssk_list .sskl_item h5{
+    font-size: 1.67vw; /*24px*/
+    font-weight: 500;
+    color: #99CCFF;
+    margin-top: 2.22vw; /*32px*/
+    margin-bottom: 0.35vw; /*5px*/
+}
+
+main .services_section .ss_kids .ssk_list .sskl_item h4{
+    font-size: 1.67vw; /*24px*/
+    line-height: 2.08vw; /*30px*/
+    font-weight: 500;
+    color: black;
+    margin-bottom: 0.56vw; /*8px*/
+}
+
+main .services_section .ss_kids .ssk_list .sskl_item p{
+    font-size: 1.39vw; /*20px*/
+    line-height: 1.94vw; /*28px*/
+    font-weight: 300;
+    color: #566364
+}
+
+/*                                                                          Servicios para adolescentes */
+
+main .services_section .ss_teens{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid yellow; */
+    padding: 3.33vw 5.56vw; /*48/80px*/
+    gap: 2.22vw; /*32px*/
+}
+
+main .services_section .ss_teens .sst_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.56vw; /*8px*/
+    /* border: 1px solid green; */
+}
+
+main .services_section .ss_teens .sst_header svg{
+    width: 5.56vw; /*80px*/
+    height: 4.51vw; /*65px*/
+}
+
+main .services_section .ss_teens .sst_header path{
+    fill: #99CCFF;
+}
+
+main .services_section .ss_teens .sst_header h3{
+    font-size: 2.08vw; /*30px*/
+    font-weight: 500;
+    color: black;
+}
+
+main .services_section .ss_teens .sst_list{
+    /* border: 1px solid pink; */
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    column-gap: 1.67vw; /*24px*/
+    row-gap: 1.67vw; /*24px*/
+}
+
+main .services_section .ss_teens .sst_list .sstl_item{
+    height: 17.92vw; /*258px*/
+    border-radius: 1.67vw; /*24px*/
+    background-color: #FFFFFF;
+    padding-left: 2.5vw; /*36px*/
+    padding-right: 2.5vw; /*36px*/
+    box-shadow: 0 0 15px rgba(217, 217, 217, 50);
+}
+
+main .services_section .ss_teens .sst_list .sstl_item h5{
+    font-size: 1.67vw; /*24px*/
+    font-weight: 500;
+    color: #99CCFF;
+    margin-top: 2.22vw; /*32px*/
+    margin-bottom: 0.35vw; /*5px*/
+}
+
+main .services_section .ss_teens .sst_list .sstl_item h4{
+    font-size: 1.67vw; /*24px*/
+    line-height: 2.08vw; /*30px*/
+    font-weight: 500;
+    color: black;
+    margin-bottom: 0.56vw; /*8px*/
+}
+
+main .services_section .ss_teens .sst_list .sstl_item p{
+    font-size: 1.39vw; /*20px*/
+    line-height: 1.94vw; /*28px*/
+    font-weight: 300;
+    color: #566364
+}
+
+/*                                                                          Servicios para adultos */
+
+
+main .services_section .ss_adults{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid yellow; */
+    padding: 3.33vw 5.56vw; /*48/80px*/
+    gap: 2.22vw; /*32px*/
+}
+
+main .services_section .ss_adults .ssa_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.56vw; /*8px*/
+    /* border: 1px solid green; */
+}
+
+main .services_section .ss_adults .ssa_header svg{
+    width: 5.21vw; /*75px*/
+    height: 4.51vw; /*65px*/
+}
+
+main .services_section .ss_adults .ssa_header path{
+    fill: #99CCFF;
+}
+
+main .services_section .ss_adults .ssa_header h3{
+    font-size: 2.08vw; /*30px*/
+    font-weight: 500;
+    color: black;
+}
+
+main .services_section .ss_adults .ssa_list{
+    /* border: 1px solid pink; */
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    column-gap: 1.67vw; /*24px*/
+    row-gap: 1.67vw; /*24px*/
+}
+
+main .services_section .ss_adults .ssa_list .ssal_item{
+    height: 17.92vw; /*258px*/
+    border-radius: 1.67vw; /*24px*/
+    background-color: #FFFFFF;
+    padding-left: 2.5vw; /*36px*/
+    padding-right: 2.5vw; /*36px*/
+    box-shadow: 0 0 15px rgba(217, 217, 217, 50);
+}
+
+main .services_section .ss_adults .ssa_list .ssal_item h5{
+    font-size: 1.67vw; /*24px*/
+    font-weight: 500;
+    color: #99CCFF;
+    margin-top: 2.22vw; /*32px*/
+    margin-bottom: 0.35vw; /*5px*/
+}
+
+main .services_section .ss_adults .ssa_list .ssal_item h4{
+    font-size: 1.67vw; /*24px*/
+    line-height: 2.08vw; /*30px*/
+    font-weight: 500;
+    color: black;
+    margin-bottom: 0.56vw; /*8px*/
+}
+
+main .services_section .ss_adults .ssa_list .ssal_item p{
+    font-size: 1.39vw; /*20px*/
+    line-height: 1.94vw; /*28px*/
+    font-weight: 300;
+    color: #566364
+}
+
+.ss_title, .ss_svg, .ss_subtitle, .ssk_list, .sst_list, .ssa_list{
+    opacity: 0; /* Inicialmente invisible */
+    transform: translateY(50px); /* Colocamos la sección fuera de la vista para que no se vea */
+}
+
+@media (max-width:766.9px){
+    main .services_section{
+        width: 100%;
+    }
+    
+    main .services_section h2{
+        font-size: 6.5vw; /*28px*/
+        line-height: 7.9vw; /*34px*/
+    }
+    
+    main .services_section .ss_back1{
+        width: 63.7vw;
+        height: 72.8vw;
+        top: 23.26vw;
+        left: -23.26vw;
+    }
+    
+    main .services_section .ss_back2{
+        width: 69.8vw;
+        top: 209.3vw;
+        right: -3.7vw;
+    }
+
+    main .services_section .ss_back3{
+        display: block;
+        position: absolute;
+        z-index: -1;
+        width: 48.9vw; 
+        height: 59.1vw;
+        top: 405.1vw; 
+        left: -15.8vw;
+    }
+    
+    main .services_section .ss_back4{
+        display: block;
+        position: absolute;
+        z-index: -1;
+        width: 48.9vw; 
+        height: 59.1vw;
+        top: 627vw; 
+        right: -3.7vw;
+    }
+
+    /*                                                                          Servicios para niños */
+    
+    
+    main .services_section .ss_kids{
+        padding: 7.4vw 0; /*7.4vw -> 32px*/
+        gap: 7.4vw;
+    }
+    
+    main .services_section .ss_kids .ssk_header{
+        gap: 0;
+    }
+    
+    main .services_section .ss_kids .ssk_header svg{
+        width: 14vw; /*60px*/
+        height: 11.6vw; /*50px*/
+    }
+    
+    main .services_section .ss_kids .ssk_header h3{
+        font-size: 5.6vw; /*24px*/
+        line-height: 7vw; /*30px*/
+    }
+    
+    main .services_section .ss_kids .ssk_list{
+        grid-template-columns: 1fr;
+        row-gap: 6.5vw; /*24px*/
+
+    }
+    
+    main .services_section .ss_kids .ssk_list .sskl_item{
+        height: 48.9vw; /*210px*/
+        padding-left: 5.6vw;
+        padding-right: 6.5vw;
+        border-radius: 3.7vw;
+    }
+    
+    main .services_section .ss_kids .ssk_list .sskl_item h5{
+        font-size: 4.7vw; /*20px*/
+        margin-top: 7.4vw;
+        margin-bottom: 1.9vw;
+    }
+    
+    main .services_section .ss_kids .ssk_list .sskl_item h4{
+        font-size: 4.7vw; /*20px*/
+        line-height: 6vw; /*26px*/
+        margin-bottom: 1.9vw;
+    }
+    
+    main .services_section .ss_kids .ssk_list .sskl_item p{
+        font-size: 4.2vw; /*18px*/
+        line-height: 5.6vw; /*24px*/
+    }
+    
+    /*                                                                          Servicios para adolescentes */
+    
+    main .services_section .ss_teens{
+        padding: 7.4vw 0; /*7.4vw -> 32px*/
+        gap: 7.4vw;
+    }
+    
+    main .services_section .ss_teens .sst_header{
+        gap: 0; /*7.4vw -> 12px*/
+    }
+    
+    main .services_section .ss_teens .sst_header svg{
+        width: 14vw; /*60px*/
+        height: 11.6vw; /*50px*/
+    }
+    
+    main .services_section .ss_teens .sst_header h3{
+        font-size: 5.6vw; /*24px*/
+        line-height: 7vw; /*30px*/
+    }
+    
+    main .services_section .ss_teens .sst_list{
+        grid-template-columns: 1fr;
+        row-gap: 6.5vw; /*24px*/
+    }
+    
+    main .services_section .ss_teens .sst_list .sstl_item{
+        height: 48.9vw; /*210px*/
+        padding-left: 5.6vw;
+        padding-right: 6.5vw;
+        border-radius: 3.7vw;
+    }
+    
+    main .services_section .ss_teens .sst_list .sstl_item h5{
+        font-size: 4.7vw; /*20px*/
+        margin-top: 7.4vw;
+        margin-bottom: 1.9vw;
+    }
+    
+    main .services_section .ss_teens .sst_list .sstl_item h4{
+        font-size: 4.7vw; /*20px*/
+        line-height: 6vw; /*26px*/
+        margin-bottom: 1.9vw;
+    }
+    
+    main .services_section .ss_teens .sst_list .sstl_item p{
+        font-size: 4.2vw; /*18px*/
+        line-height: 5.6vw; /*24px*/
+    }
+    
+    /*                                                                          Servicios para adultos */
+    
+    
+    main .services_section .ss_adults{
+        padding: 7.4vw 0; /*7.4vw -> 32px*/
+        gap: 7.4vw;
+        padding-bottom: 0;
+    }
+    
+    main .services_section .ss_adults .ssa_header{
+        gap: 0; /*7.4vw -> 12px*/
+    }
+    
+    main .services_section .ss_adults .ssa_header svg{
+        width: 14vw; /*60px*/
+        height: 11.6vw; /*50px*/
+    }
+    
+    main .services_section .ss_adults .ssa_header h3{
+        font-size: 5.6vw; /*24px*/
+        line-height: 7vw; /*30px*/
+    }
+    
+    main .services_section .ss_adults .ssa_list{
+        grid-template-columns: 1fr;
+        row-gap: 6.5vw; /*24px*/
+    }
+    
+    main .services_section .ss_adults .ssa_list .ssal_item{
+        height: 48.9vw; /*210px*/
+        padding-left: 5.6vw;
+        padding-right: 6.5vw;
+        border-radius: 3.7vw;
+    }
+    
+    main .services_section .ss_adults .ssa_list .ssal_item h5{
+        font-size: 4.7vw; /*20px*/
+        margin-top: 7.4vw;
+        margin-bottom: 1.9vw;
+    }
+    
+    main .services_section .ss_adults .ssa_list .ssal_item h4{
+        font-size: 4.7vw; /*20px*/
+        line-height: 6vw; /*26px*/
+        margin-bottom: 1.9vw;
+    }
+    
+    main .services_section .ss_adults .ssa_list .ssal_item p{
+        font-size: 4.2vw; /*18px*/
+        line-height: 5.6vw; /*24px*/
+    }
+}
+
+@media (min-width:767px) and (max-width:1023px){
+    main .services_section h2{
+        font-size: 3.8vw; /*32px*/
+        line-height: 4.6vw; /*38px*/
+    }
+
+    main .services_section .ss_back1{
+        width: 63.7vw;
+        height: 72.8vw;
+        top: 15vw;
+        left: -23.26vw;
+    }
+    
+    main .services_section .ss_back2{
+        width: 70vw;
+        top: 152vw;
+        right: -3.8vw; /*32px*/
+    }
+    
+    /*                                                                          Servicios para niños */
+    
+    main .services_section .ss_kids{
+        padding: 4.3vw 0; /*36px*/
+        gap: 4.3vw; /*36px*/
+    }
+    
+    main .services_section .ss_kids .ssk_header{
+        gap: 0;
+    }
+    
+    main .services_section .ss_kids .ssk_header svg{
+        width: 8.4vw; /*70px*/
+        height: 7.2vw; /*60px*/
+    }
+    
+    main .services_section .ss_kids .ssk_header h3{
+        font-size: 3.1vw; /*26px*/
+    }
+    
+    main .services_section .ss_kids .ssk_list{
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2.9vw; /*24px*/
+        row-gap: 2.9vw; /*24px*/
+    }
+    
+    main .services_section .ss_kids .ssk_list .sskl_item{
+        border-radius: 2.4vw; /*20px*/
+        padding-left: 4.8vw; /*40px*/
+        padding-right: 4.8vw; /*40px*/
+        height: 25.5vw; /*213px*/
+    }
+    
+    main .services_section .ss_kids .ssk_list .sskl_item h5{
+        font-size: 2.4vw; /*20px*/
+        margin-top: 3.1vw; /*26px*/
+        margin-bottom: 0.6vw; /*5px*/
+    }
+    
+    main .services_section .ss_kids .ssk_list .sskl_item h4{
+        font-size: 2.4vw; /*20px*/ 
+        line-height: 3.1vw;  /*26px*/
+        margin-bottom: 0.6vw; 
+    }
+    
+    main .services_section .ss_kids .ssk_list .sskl_item p{
+        font-size: 2.2vw; /*20px*/
+        line-height: 2.9vw; /*26px*/
+    }
+    
+    /*                                                                          Servicios para adolescentes */
+    
+    main .services_section .ss_teens{
+        padding: 4.3vw 0; /*36px*/
+        gap: 4.3vw; /*36px*/
+    }
+    
+    main .services_section .ss_teens .sst_header{
+        gap: 0;
+    }
+    
+    main .services_section .ss_teens .sst_header svg{
+        width: 8.4vw; /*70px*/
+        height: 7.2vw; /*60px*/
+    }
+    
+    main .services_section .ss_teens .sst_header h3{
+        font-size: 3.1vw; /*26px*/
+    }
+    
+    main .services_section .ss_teens .sst_list{
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2.9vw; /*24px*/
+        row-gap: 2.9vw; /*24px*/
+    }
+    
+    main .services_section .ss_teens .sst_list .sstl_item{
+        border-radius: 2.4vw; /*20px*/
+        padding-left: 4.8vw; /*40px*/
+        padding-right: 4.8vw; /*40px*/
+        height: 25.5vw; /*213px*/
+    }
+    
+    main .services_section .ss_teens .sst_list .sstl_item h5{
+        font-size: 2.4vw; /*20px*/
+        margin-top: 3.1vw; /*26px*/
+        margin-bottom: 0.6vw; /*5px*/
+    }
+    
+    main .services_section .ss_teens .sst_list .sstl_item h4{
+        font-size: 2.4vw; /*20px*/ 
+        line-height: 3.1vw;  /*26px*/
+        margin-bottom: 0.6vw; 
+    }
+    
+    main .services_section .ss_teens .sst_list .sstl_item p{
+        font-size: 2.2vw; /*20px*/
+        line-height: 2.9vw; /*26px*/
+    }
+    
+    /*                                                                          Servicios para adultos */
+    
+    main .services_section .ss_adults{
+        padding: 4.3vw 0; /*36px*/
+        gap: 4.3vw; /*36px*/
+    }
+    
+    main .services_section .ss_adults .ssa_header{
+        gap: 0;
+    }
+    
+    main .services_section .ss_adults .ssa_header svg{
+        width: 8.4vw; /*70px*/
+        height: 7.2vw; /*60px*/
+    }
+    
+    main .services_section .ss_adults .ssa_header h3{
+        font-size: 3.1vw; /*26px*/
+    }
+    
+    main .services_section .ss_adults .ssa_list{
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2.9vw; /*24px*/
+        row-gap: 2.9vw; /*24px*/
+    }
+    
+    main .services_section .ss_adults .ssa_list .ssal_item{
+        border-radius: 2.4vw; /*20px*/
+        padding-left: 4.8vw; /*40px*/
+        padding-right: 4.8vw; /*40px*/
+        height: 25.5vw; /*213px*/
+    }
+    
+    main .services_section .ss_adults .ssa_list .ssal_item h5{
+        font-size: 2.4vw; /*20px*/
+        margin-top: 3.1vw; /*26px*/
+        margin-bottom: 0.6vw; /*5px*/
+    }
+    
+    main .services_section .ss_adults .ssa_list .ssal_item h4{
+        font-size: 2.4vw; /*20px*/ 
+        line-height: 3.1vw;  /*26px*/
+        margin-bottom: 0.6vw; 
+    }
+    
+    main .services_section .ss_adults .ssa_list .ssal_item p{
+        font-size: 2.2vw; /*20px*/
+        line-height: 2.9vw; /*26px*/
+    }
+}

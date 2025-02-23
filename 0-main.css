@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'Mabry Pro';
+    /* src: url('/fonts/MabryPro-Italic.woff2') format('woff2'); */
+    src: url('MabryPro-Italic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mabry Pro';
+    /* src: url('/fonts/MabryPro-Light.woff2') format('woff2'); */
+    src: url('MabryPro-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mabry Pro';
+    /* src: url('/fonts/MabryPro-Medium.woff2') format('woff2'); */
+    src: url('MabryPro-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mabry Pro';
+    /* src: url('/fonts/MabryPro-Regular.woff2') format('woff2'); */
+    src: url('MabryPro-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Rebote */
+@keyframes huhu {
+    50% { 
+        transform: translateY(30px);
+    }
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+section[id]{
+    scroll-margin-top: 7.64vw; /*110px*/
+}
+
+body{
+    font-family: 'Mabry Pro';
+    /* margin: 5vw;        
+    margin-top: 0;
+    margin-bottom: 2.22vw; */
+    margin: 0 5vw 2.22vw 5vw; /*0/72px/32px/72px*/
+}
+
+main{
+    margin-top: 5.56vw; /*80px*/
+}
+
+@media (max-width:766.9px){
+    section[id]{
+        scroll-margin-top: 16.7vw; /*72px*/
+    }
+
+    main{
+        margin-top: 14vw; /*60px*/
+    }
+
+    body{
+        margin: 3.7vw; /*16px*/
+        margin-top: 0;
+    }
+}
+
+@media (min-width:767px) and (max-width:1023px){
+    section[id]{
+        scroll-margin-top: 9.1vw; /*76px*/
+    }
+
+    main{
+        margin-top: 7.7vw; /*64px*/
+    }
+
+    body{
+        margin: 3.8vw; /*32px*/
+        margin-top: 0;
+    }
+}
+

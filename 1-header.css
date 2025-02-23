@@ -1,0 +1,247 @@
+header{
+    /* border: 1px solid red; */
+    margin-bottom: 2.22vw; /*32px*/
+    position: fixed;
+    width: calc(100vw - 21.11vw); /*160/144px*/
+    /* width: calc(100vw - 11vw); */
+    height: 4.44vw; /*64px*/
+    display: flex;
+    align-items: center;
+    border-radius: 5.56vw; /*80px*/
+    padding: 0 5.56vw;
+    top: 1.11vw; /*16px*/    
+    z-index: 100;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    transition: height 0.3s ease; /* Transición para la expansión */
+    overflow: hidden; /* Ocultar el contenido que se desborda */
+}
+
+header .nav_container{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .nav_container .left_nav{
+    /* border: 1px solid black; */
+    display: flex;
+    /* margin-left: 5.56vw; */
+}
+
+header .nav_container .left_nav img{
+    /* border: 1px solid yellow; */
+    width: auto;
+    height: 2.78vw; /*40px*/
+}
+
+header .nav_container .right_nav{
+    /* border: 1px solid grey; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* margin-right: 5.56vw; */
+}
+
+header .nav_container .right_nav .menu_container {
+    /* border: 1px solid pink; */
+    height: 100%;
+}
+
+header .nav_container .right_nav .menu_container .mc_items{
+    height: 100%;
+    /* border: 1px solid yellowgreen; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.67vw; /*24px*/
+}
+
+header .nav_container .right_nav .menu_container .mc_items li{
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .nav_container .right_nav .menu_container .mc_items li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.11vw; /*16px*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .nav_container .right_nav .menu_container .mc_items li .CTA{
+    /* height: auto; */
+    background: #86B5FF;
+    border-radius: 1.39vw; /*20px*/
+    padding: 0.69vw 1.11vw; /*10/16px*/
+    color: #FFFFFF;
+}
+
+/*HAMBURGER MENU*/
+header .nav_container .bars_menu{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+header .nav_container .bars_menu span{
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: black;
+    margin-top: 6px;
+    transform-origin: 0px 100%;
+    transition: all 300ms;
+}
+
+.activeline1_bars-menu{
+    transform: rotate(45deg) translate(-2px, 1px);
+}
+
+.activeline2_bars-menu{
+    opacity: 0;
+    margin-left: -30px;
+}
+
+.activeline3_bars-menu{
+    transform: rotate(-45deg) translate(-4px, 2px);
+}
+/*END MENU*/
+
+@media (max-width:766.9px){
+    header{
+        margin-bottom: 2.8vw; /*12px*/
+        height: 14vw; /*60px*/
+        border-radius: 0 0 3.7vw 3.7vw; /*16px*/
+        top: 0px;    
+        padding: 0 5.6vw;
+        width: calc(100vw - 7.4vw - 11.2vw); /*32/48px*/
+    }
+
+    header .nav_container {
+        align-items: start;
+        padding-top: 8.4vw; /*36px*/
+    }
+
+    header .nav_container .left_nav img{
+        /* border: 1px solid yellow; */
+        width: auto;
+        height: 5.6vw;
+    }
+
+    header .nav_container .right_nav .menu_container .mc_items{
+        display: none; /* Ocultar el menú en dispositivos móviles */
+        position: absolute;
+        flex-direction: column; /* Cambiar a columna */
+        top: 16.7vw; /* 72px / Ajustar según la altura del header */
+        right: 0;
+        width: 100%;
+        height: auto;
+        gap: 5.6vw; /*24px*/
+    }
+
+    header .nav_container .right_nav .menu_container .mc_items.active{
+        display: flex; /* Mostrar el menú cuando está activo */
+    }
+
+    header .nav_container .right_nav .menu_container .mc_items li a{
+        text-decoration: none;
+        color: black;
+        font-size: 3.7vw; /*16px*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header .nav_container .right_nav .menu_container .mc_items li .CTA{
+        background: #86B5FF;
+        border-radius: 11.2vw; /*48px*/
+        padding: 2.3vw 8.4vw 2.8vw 8.4vw; /*10/12/36px*/
+        color: #FFFFFF;
+    }
+
+    header .nav_container .bars_menu{
+        display: block;
+        width: 24px;
+        height: 24px;
+    }
+
+    header .nav_container .bars_menu span{
+        margin-top: 4px;
+    }
+    
+}
+
+@media (min-width:767px) and (max-width:1023px){
+    header{
+        margin-bottom: 1.4vw; /*12px*/
+        height: 7.7vw; /*64px*/
+        border-radius: 0 0 2.4vw 2.4vw; /*16px*/
+        top: 0;    
+        padding: 0 4.8vw;
+        width: calc(100vw - 7.7vw - 9.6vw); /*64/80px*/
+    }
+
+    header .nav_container {
+        align-items: start;
+        padding-top: 4.8vw; /*40px*/
+    }
+
+    header .nav_container .left_nav img{
+        /* border: 1px solid yellow; */
+        width: auto;
+        height: 2.9vw;
+    }
+
+    header .nav_container .right_nav .menu_container .mc_items{
+        display: none; /* Ocultar el menú en dispositivos móviles */
+        position: absolute;
+        flex-direction: column; /* Cambiar a columna */
+        top: 9.1vw; /* Ajustar según la altura del header */
+        right: 0;
+        width: 100%;
+        height: auto;
+        gap: 2.9vw;
+    }
+
+    header .nav_container .right_nav .menu_container .mc_items.active{
+        display: flex; /* Mostrar el menú cuando está activo */
+    }
+
+    header .nav_container .right_nav .menu_container .mc_items li a{
+        text-decoration: none;
+        color: black;
+        font-size: 1.9vw; /*16px*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header .nav_container .right_nav .menu_container .mc_items li .CTA{
+        background: #86B5FF;
+        border-radius: 5.8vw; /*20px*/
+        padding: 1.2vw 4.3vw 1.4vw 4.3vw; /*10/16px*/
+        color: #FFFFFF;
+    }
+
+    header .nav_container .bars_menu{
+        display: block;
+        width: 24px;
+        height: 24px;
+    }
+
+    header .nav_container .bars_menu span{
+        margin-top: 4px;
+    }
+}
+

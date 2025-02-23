@@ -1,0 +1,96 @@
+main .caption_section {
+    background-color: #99CCFF;
+    border-radius: 1.67vw; /*24px*/
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 1.67vw 5.56vw; /*24/80px*/
+    margin-bottom: 4.44vw; /*64px*/
+    gap: 3.33vw; /*48px*/
+    box-shadow: 0 0 15px rgba(217, 217, 217, 50);
+}
+
+main .caption_section img{
+    width: 9.31vw; /*134px*/
+    height: 6.67vw; /*96px*/
+    /* border: 1px solid red; */
+}
+
+main .caption_section h3{
+    font-size: 2.08vw; /*30px*/
+    line-height: 2.64vw; /*38px*/
+    font-weight: normal;
+    font-style: italic;
+    color: black;
+    /* border: 1px solid red; */
+
+    color: #FFFFFF;
+    text-shadow: 0px 2px 5px #6698e9;
+}
+
+.cs_img, .cs_title{
+    opacity: 0; /* Inicialmente invisible */
+    transform: translateY(50px); /* Colocamos la sección fuera de la vista para que no se vea */
+}
+
+@media (max-width:766.9px){
+    main .caption_section {
+        flex-direction: column;
+        padding: 9.3vw 7.4vw; /*9.3/7.4vw -> 40/32px*/
+        gap: 2.8vw; /*2.8vw -> 12px*/
+        border-radius: 3.7vw;
+        margin-bottom: 14.9vw;
+    }
+    
+    main .caption_section img{
+        width: 16vw; /*16vw -> 69px*/
+        height: 10.7vw; /*10.7vw -> 46px*/
+    }
+    
+    main .caption_section h3{
+        font-size: 5.1vw; /*22px*/
+        line-height: 6.5vw; /*28px*/
+        text-align: center;
+    }
+}
+
+@media (min-width:767px) and (max-width:1023px){
+    main .caption_section {
+        /* background-color: #99CCFF;
+        border-radius: 16px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        padding: 24px 80px;
+        margin-bottom: 64px;
+        gap: 45px;
+        box-shadow: 0 0 15px rgba(217, 217, 217, 50); */
+    
+        border-radius: 2.4vw;
+        padding: 2.9vw 4.8vw;
+        gap: 3.8vw;
+
+    }
+    
+    main .caption_section img{
+        /* width: 134px;
+        height: 96px; */
+        /* border: 1px solid red; */
+
+
+        width: 11.5vw; /*96px*/
+        height: 8.4vw; /*70px*/
+    }
+    
+    main .caption_section h3{
+        /* font-size: 30px;
+        line-height: 38px;
+        font-weight: normal;
+        font-style: italic;
+        color: black; */
+        /* border: 1px solid red; */
+    
+        font-size: 2.6vw; /*22px*/
+        line-height: 3.4vw; /*28px*/
+    }
+}

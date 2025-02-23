@@ -1,0 +1,269 @@
+main .team_section{
+    margin-bottom: 8.33vw; /*120px*/
+}
+
+main .team_section h2{
+    font-size: 3.33vw; /*48px*/
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    /* border: 1px solid orange; */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3.89vw; /*56px*/
+    color: black;
+}
+
+main .team_section .ts_psychos{
+    /* border: 1px solid orange; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 5.56vw; /*80px*/
+    gap: 3.33vw; /*48px*/
+}
+
+main .team_section .ts_psychos .tsp_Daniela{
+    /* border: 1px solid green; */
+    border-radius: 1.67vw; /*24x*/
+    box-shadow: 0 0 15px rgba(217, 217, 217, 50);
+}
+
+main .team_section .ts_psychos .tsp_Daniela .Daniela_img{
+    /* border: 1px solid green; */
+    background-color: #99CCFF;
+    border-radius: 1.67vw 1.67vw 0 0; /*24/24px*/
+    display: flex;
+    justify-content: center;
+    padding-top: 2.08vw; /*30px*/
+}
+
+main .team_section .ts_psychos .tsp_Daniela .Daniela_img img{
+    width: auto;
+    height: 31.25vw; /*450px*/
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0 ,0.9)) saturate(0.95) contrast(0.95);
+}
+
+main .team_section .ts_psychos .tsp_Daniela .Daniela_info{
+    /* border: 1px solid green; */
+    padding: 3.33vw; /*48px*/
+}
+
+main .team_section .ts_psychos .tsp_Daniela .Daniela_info h4{
+    /* border: 1px solid green; */
+    font-size: 1.67vw; /*24px*/
+    color: black;
+    font-weight: 500;
+    margin-bottom: 0.56vw; /*8px*/
+}
+
+main .team_section .ts_psychos .tsp_Daniela .Daniela_info p{
+    /* border: 1px solid green; */
+    font-size: 1.39vw; /*20px*/
+    line-height: 2.08vw; /*30px*/
+    color: #566364;
+    font-weight: 300;
+}
+
+main .team_section .ts_psychos .tsp_Samir{
+    /* border: 1px solid green; */
+    border-radius: 1.67vw; /*24x*/
+    box-shadow: 0 0 15px rgba(217, 217, 217, 50);
+}
+
+main .team_section .ts_psychos .tsp_Samir .Samir_img{
+    /* border: 1px solid green; */
+    background-color: #99CCFF;
+    border-radius: 1.67vw 1.67vw 0 0; /*24/24px*/
+    display: flex;
+    justify-content: center;
+    padding-top: 2.08vw; /*30px*/
+}
+
+main .team_section .ts_psychos .tsp_Samir .Samir_img img{
+    width: auto;
+    height: 31.25vw; /*450px*/
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0 ,0.9)) saturate(0.95) contrast(0.95);
+}
+
+main .team_section .ts_psychos .tsp_Samir .Samir_info{
+    /* border: 1px solid green; */
+    padding: 3.33vw; /*48px*/
+}
+
+main .team_section .ts_psychos .tsp_Samir .Samir_info h4{
+    /* border: 1px solid green; */
+    font-size: 1.67vw; /*24px*/
+    color: black;
+    font-weight: 500;
+    margin-bottom: 0.56vw; /*8px*/
+}
+
+main .team_section .ts_psychos .tsp_Samir .Samir_info p{
+    /* border: 1px solid green; */
+    font-size: 1.39vw; /*20px*/
+    line-height: 2.08vw; /*30px*/
+    color: #566364;
+    font-weight: 300;
+}
+
+.ts_title, .tsp_Daniela, .tsp_Samir{
+    opacity: 0; /* Inicialmente invisible */
+    transform: translateY(50px); /* Colocamos la sección fuera de la vista para que no se vea */
+}
+
+@media (max-width:766.9px){
+    main .team_section{
+        margin-bottom: 14.9vw;
+    }
+    
+    main .team_section h2{
+        font-size: 6.5vw; /*28px*/
+        line-height: 7.9vw; /*34px*/
+        margin-bottom: 11.2vw;
+        text-align: center;
+    }
+    
+    main .team_section .ts_psychos{
+        border: 0;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        gap: 7.4vw;
+        margin: 0;
+    }
+    
+    main .team_section .ts_psychos .tsp_Daniela{
+        border-radius: 3.7vw;
+    }
+    
+    main .team_section .ts_psychos .tsp_Daniela .Daniela_img{
+        border-radius: 3.7vw 3.7vw 0 0;
+        padding-top: 5.6vw; /*24px*/
+    }
+
+    main .team_section .ts_psychos .tsp_Daniela .Daniela_img img{
+        width: auto;
+        height: 69.8vw; /*300px*/
+    }
+    
+    main .team_section .ts_psychos .tsp_Daniela .Daniela_info{
+        /* border: 1px solid green; */
+        /* padding: 48px; */
+        padding: 5.6vw; /*24px*/
+        padding-top: 7vw; /*30px*/
+    }
+    
+    main .team_section .ts_psychos .tsp_Daniela .Daniela_info h4{
+        font-size: 4.7vw; /*20px*/
+        line-height: 6vw; /*26px*/ 
+        margin-bottom: 1.5vw;
+    }
+    
+    main .team_section .ts_psychos .tsp_Daniela .Daniela_info p{
+        font-size: 4.2vw; /*18px*/
+        line-height: 5.6vw; /*24px*/
+    }
+    
+    main .team_section .ts_psychos .tsp_Samir{
+        border-radius: 3.7vw;
+    }
+    
+    main .team_section .ts_psychos .tsp_Samir .Samir_img{
+        border-radius: 3.7vw 3.7vw 0 0;
+        padding-top: 5.6vw; /*24px*/
+    }
+    
+    main .team_section .ts_psychos .tsp_Samir .Samir_img img{
+        width: auto;
+        height: 69.8vw; /*300px*/
+    }
+
+    main .team_section .ts_psychos .tsp_Samir .Samir_info{
+        padding: 5.6vw; /*24px*/
+        padding-top: 7vw; /*30px*/    
+    }
+    
+    main .team_section .ts_psychos .tsp_Samir .Samir_info h4{
+        font-size: 4.7vw; /*20px*/
+        line-height: 6vw; /*26px*/ 
+        margin-bottom: 1.5vw;
+    }
+    
+    main .team_section .ts_psychos .tsp_Samir .Samir_info p{
+        font-size: 4.2vw; /*18px*/
+        line-height: 5.6vw; /*24px*/
+    }
+}
+
+@media (min-width:767px) and (max-width:1023px){
+    main .team_section{
+        margin-bottom: 7.7vw;
+    }
+    
+    main .team_section h2{
+        font-size: 3.8vw; /*32px*/
+        line-height: 4.6vw; /*38px*/
+        margin-bottom: 4.3vw;
+    }
+    
+    main .team_section .ts_psychos{
+        margin: 0;
+        gap: 2.9vw;
+    }
+    
+    main .team_section .ts_psychos .tsp_Daniela{
+        border-radius: 2.4vw;
+    }
+    
+    main .team_section .ts_psychos .tsp_Daniela .Daniela_img{
+        border-radius: 2.4vw 2.4vw 0 0;
+        padding-top: 2.9vw; /*24px*/
+    }
+
+    main .team_section .ts_psychos .tsp_Daniela .Daniela_img img{
+        width: auto;
+        height: 36vw;
+    }
+
+    main .team_section .ts_psychos .tsp_Daniela .Daniela_info{
+        padding: 2.9vw 4.8vw;
+    }
+    
+    main .team_section .ts_psychos .tsp_Daniela .Daniela_info h4{
+        font-size: 2.4vw; /*20px*/ 
+        line-height: 3.1vw;  /*26px*/
+        margin-bottom: 0.6vw;
+    }
+    
+    main .team_section .ts_psychos .tsp_Daniela .Daniela_info p{
+        font-size: 2.2vw; /*20px*/
+        line-height: 2.9vw; /*26px*/
+    }
+    
+    main .team_section .ts_psychos .tsp_Samir{
+        border-radius: 2.4vw;
+    }
+    
+    main .team_section .ts_psychos .tsp_Samir .Samir_img{
+        border-radius: 2.4vw 2.4vw 0 0;
+        padding-top: 2.9vw; /*24px*/
+    }
+
+    main .team_section .ts_psychos .tsp_Samir .Samir_img img{
+        width: auto;
+        height: 36vw;
+    }
+    
+    main .team_section .ts_psychos .tsp_Samir .Samir_info{
+        padding: 2.9vw 4.8vw;
+    }
+    
+    main .team_section .ts_psychos .tsp_Samir .Samir_info h4{
+        font-size: 2.4vw; /*20px*/ 
+        line-height: 3.1vw;  /*26px*/
+        margin-bottom: 0.6vw;
+    }
+    
+    main .team_section .ts_psychos .tsp_Samir .Samir_info p{
+        font-size: 2.2vw; /*20px*/
+        line-height: 2.9vw; /*26px*/
+    }
+}

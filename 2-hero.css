@@ -1,0 +1,277 @@
+main .hero_section{
+    /* border: 1px solid purple; */
+    height: 52.22vw; /*752px*/
+    border-radius: 1.67vw; /*24px*/
+    background: linear-gradient(0deg, #e5f2ff 0%, #99ccff 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(217, 217, 217, 50);
+}
+
+main .hero_section .left_hero{
+    width: 60%;
+    height: 100%;
+    /* border: 1px solid purple; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+main .hero_section .left_hero img{
+    width: 16.11vw; /*232px*/
+    position: absolute;
+    left: -11.11vw; /*160px*/
+}
+
+main .hero_section .left_hero .lh_text{
+    z-index: 1;
+    height: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main .hero_section .left_hero .lh_text h1{
+    margin-left: 5.56vw; /*80px*/
+    font-size: 4.44vw; /*64px*/
+    /* color: #2E2E2E; */
+    font-weight: 500;
+    margin-bottom: 1.11vw; /*16px*/
+    letter-spacing: -1px;
+    /* text-shadow: 0px 8px 5px #6698e9; */
+
+    color: #FFFFFF;
+    text-shadow: 0px 8px 5px #6698e9;
+}
+
+main .hero_section .left_hero .lh_text h2{
+    margin-left: 5.56vw; /*80px*/
+    font-size: 5vw; /*72px*/
+    font-family: "Sacramento", serif;
+    font-weight: 400;
+    font-style: normal;
+    /* color: black; */
+    margin-bottom: 1.11vw; /*16px*/
+    letter-spacing: -0.5px;
+    /* text-shadow: 0px 8px 5px #6698e9; */
+
+    color: #FFFFFF;
+    text-shadow: 0px 8px 5px #6698e9;
+}
+
+main .hero_section .left_hero .lh_text p{
+    margin-left: 5.56vw; /*80px*/
+    margin-right: 5.56vw; /*80px*/
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.67vw; /*24px*/
+    line-height: 2.22vw; /*32px*/
+    /* color: #A3A3A3; */
+    /* color: #566364; */
+    /* color: black; */
+    margin-bottom: 1.67vw; /*24px*/
+
+    color: #FFFFFF;
+    text-shadow: 0px 2px 5px #6698e9;
+}
+
+main .hero_section .left_hero .lh_text .lh_CTA{
+    margin-left: 5.56vw; /*80px*/
+    font-size: 1.67vw; /*24px*/
+    line-height: 1.67vw; /*24px*/
+    font-weight: 400;
+    /* letter-spacing: -0.5px; */
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #86B5FF;
+    border-radius: 2.08vw; /*30px*/
+    width: calc(100% - 11.11vw); /*160px*/
+    padding: 1.39vw 0 1.53vw 0; /*20/22px*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px #86B5FF;
+}
+
+main .hero_section .right_hero{
+    width: 40%;
+    height: 100%;
+    /* border: 1px solid rgb(183, 113, 10); */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .hero_section .right_hero .rh_Daniela{
+    width: 38.89vw; /*560px*/
+    position: absolute;
+    bottom: 0px;
+    right: 1.74vw; /*25px*/
+    z-index: 1; 
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0 ,0.9)) saturate(0.95) contrast(0.95);
+}
+
+main .hero_section .right_hero .rh_draw{
+    width: 37.71vw; /*543px*/
+    height: 41.04vw; /*591px*/
+    position: absolute;
+    top: 2%;
+}
+
+@media (max-width:766.9px){
+    main .hero_section{
+        flex-direction: column;
+        height: auto;
+        justify-content: space-between;
+        align-items: start;   
+        height: 149vw;
+        border-radius: 3.7vw;
+
+    }
+    
+    main .hero_section .left_hero{
+        width: 100%;
+        position: relative;
+        flex-direction: column;
+        gap: 16px;
+    }
+    
+    main .hero_section .left_hero img{
+        width: auto;
+        height: 49.8vw;
+        position: absolute;
+        top: -28vw;
+        left: auto;
+        rotate: 90deg;
+    }
+   
+    main .hero_section .left_hero .lh_text{
+        z-index: auto;
+        height: auto;
+        width: 100%;
+        align-items: center;
+        margin-top: 22vw;
+    }
+    
+    main .hero_section .left_hero .lh_text h1{
+        font-size: 7.4vw;
+        line-height: 7.5vw;
+        margin-bottom: 0.5vw;
+        margin-left: 0;
+    }
+    
+    main .hero_section .left_hero .lh_text h2{
+        font-size: 9.3vw;
+        margin-bottom: 5.1vw;
+        margin-left: 0;
+    }
+    
+    main .hero_section .left_hero .lh_text p{
+        font-size: 3.7vw; /*16px*/
+        line-height: 5.1vw; /*22px*/
+        margin-bottom: 9.3vw;
+        margin-left: 5.6vw;
+        margin-right: 5.6vw;
+        text-align: center;
+    }
+    
+    main .hero_section .left_hero .lh_text .lh_CTA{
+        font-size: 4.2vw; /*18px*/
+        line-height: 5.6vw; /*24px*/
+        padding: 2.8vw 0 3.7vw 0;
+        margin-bottom: 4.2vw;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: calc(100% - 11.2vw);
+        height: auto;
+        border-radius: 7vw;
+
+        /* height: 7.45vw; */
+        /* height: 11.2vw; */
+    }
+    
+    main .hero_section .right_hero{
+        width: 100%;
+    }
+    
+    main .hero_section .right_hero .rh_Daniela{
+        width: 50vw;
+        right: auto;
+    }
+    
+    main .hero_section .right_hero .rh_draw{
+        top: 0;
+        width: 60vw;
+        height: auto;
+    }
+}
+
+@media (min-width:767px) and (max-width:1023px){
+    main .hero_section{
+        border-radius: 2.4vw;
+        height: 62.4vw;
+    }
+    
+    main .hero_section .left_hero{
+        width: 70%;
+    }
+    
+    main .hero_section .left_hero img{
+        height: 26vw;
+        width: auto;
+        left: -15.5vw;
+        top: 14.4vw;
+    }
+        
+    main .hero_section .left_hero .lh_text h1{
+        font-size: 4.8vw;
+        margin-left: 4.8vw;
+        margin-bottom: 0.5vw;
+    }
+    
+    main .hero_section .left_hero .lh_text h2{
+        font-size: 5.8vw;
+        margin-left: 4.8vw;
+        margin-bottom: 2.9vw;
+    }
+    
+    main .hero_section .left_hero .lh_text p{
+        font-size: 1.9vw;
+        line-height: 2.6vw;
+        margin-left: 4.8vw;
+        margin-bottom: 4.6vw;
+    }
+    
+    main .hero_section .left_hero .lh_text .lh_CTA{
+        font-size: 2.4vw; /*24px*/
+        line-height: 3.6vw; /*30px*/
+        padding: 1.4vw 0 1.9vw 0; /*14/18px*/
+        height: auto;
+        border-radius: 7vw;
+        margin-left: 4.8vw;
+        width: 70%;
+    }
+    
+    main .hero_section .right_hero{
+        width: 30%;
+    }
+    
+    main .hero_section .right_hero .rh_Daniela{
+        width: 42vw;
+        right: -10px;
+    }
+    
+    main .hero_section .right_hero .rh_draw{
+        width: 35.4vw;
+        height: auto;
+        right: -10px;
+        top: 6vw;
+    }
+    
+}
+
